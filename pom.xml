@@ -67,6 +67,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+    <repository>
+        <id>my-repo</id>
+        <url>https://maven.pkg.github.com/NithinGR/social-media-app</url>
+    </repository>
+</distributionManagement>
+
 
 	<build>
 		<plugins>
